@@ -1,0 +1,10 @@
+# Ignorar carpetas de guardado y configuración
+save/
+config.rpgcfg
+
+# Ignorar logs y archivos temporales
+*.log
+backups/
+
+# Opcional: si usas plugins que generan archivos temporales
+node_modules/
