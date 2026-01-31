@@ -72,11 +72,17 @@ function toggleLight(selector, visibility) {
       if (window.parent && window.parent.$gameSwitches) {
           window.parent.$gameSwitches.setValue(2, true); // Activa interruptor 2
       }
+
+      if (window.parent) {
+        window.parent.focus(); 
+      }
       
       // Espera un momento para que el jugador vea que ganó y cierra
       window.setTimeout(() => {
           if (window.parent && window.parent.cerrarMinijuego) {
               window.parent.cerrarMinijuego();
+
+              window.parent.focus();
           }
       }, 1000);
     }
