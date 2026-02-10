@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"expanded":true,"name":"SALA 1 (INICIAL)","order":2,"parentId":0,"scrollX":712,"scrollY":406.6666666666667},
+{"id":1,"expanded":true,"name":"SALA 1 (INICIAL)","order":2,"parentId":0,"scrollX":619,"scrollY":352},
 {"id":2,"expanded":true,"name":"CARGA INTRO","order":1,"parentId":0,"scrollX":801,"scrollY":457.5},
-{"id":3,"expanded":false,"name":"SALA 2 (PASILLO)","order":3,"parentId":0,"scrollX":813,"scrollY":790.5}
+{"id":3,"expanded":false,"name":"SALA 2 (PASILLO)","order":3,"parentId":0,"scrollX":627,"scrollY":896}
 ]
