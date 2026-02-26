@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fix Engine</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="gear-puzzle">
+        <div class="header">Fix Engine</div>
+        
+        <div class="axle-guide big-guide" id="g-1"><div class="axle" id="t-1"></div></div>
+        <div class="axle-guide med-guide" id="g-2"><div class="axle" id="t-2"></div></div>
+        <div class="axle-guide small-guide" id="g-3"><div class="axle" id="t-3"></div></div>
+        <div class="axle-guide mini-guide" id="g-4"><div class="axle" id="t-4"></div></div>
+
+        <div class="gear big drag" id="gear-1"></div>
+        <div class="gear med drag" id="gear-2"></div>
+        <div class="gear small drag" id="gear-3"></div>
+        <div class="gear mini drag" id="gear-4"></div>
+        <div class="gear extra drag" id="gear-5" style="filter: hue-rotate(90deg);"></div>
+    </div>
+
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/Draggable.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
