@@ -5,23 +5,23 @@
   <img src="img/pictures/stardiaries_cover.jpg" alt="Game Cover" width="300"/>
 </div>
 
-## 📖 Introduction
+## Introduction
 Welcome to the demo of **Star Diaries**. In this narrative-driven puzzle game inspired by Stanisław Lem's work, you control Ijon Tichy, a space explorer trapped in a temporal loop where he must cooperate with alternate versions of himself to survive.
 
 ---
 
-## 🎮 How to Play
+## How to Play
 The gameplay focuses on exploration, dialogue, and technical problem-solving.
 
 ### Controls:
-* 🚶 **Movement:** Arrow keys.
-* 🖱️ **Interact:** `Enter` to talk to clones or examine objects.
-* 📋 **Menu/Cancel:** `Esc` or `X`.
-* ⚙️ **Minigames (Wiring/Gears):** Use the **Mouse** to perform **Drag & Drop** actions to connect wires or position gears.
+* **Movement:** Arrow keys.
+* **Interact:** `Enter` to talk to clones or examine objects.
+* **Menu/Cancel:** `Esc` or `X`.
+* **Minigames (Wiring/Gears):** Use the **Mouse** to perform **Drag & Drop** actions to connect wires or position gears.
 
 ---
 
-## 🎯 Demo Objectives
+## Demo Objectives
 In this version, you will experience the core pillars of the game:
 1. **Exploration:** Navigate the initial zones of the ship to identify system failures.
 2. **Dialogue & Persuasion:** Turn your clones into allies. Don't just command them—persuade them!
@@ -29,7 +29,7 @@ In this version, you will experience the core pillars of the game:
 
 ---
 
-## 🛠️ Execution Instructions
+## Execution Instructions
 This game was developed using **RPG Maker MZ**. 
 
 1. **Standalone Execution:** No additional software or simulators are required. The game is compiled as a standalone application.
@@ -40,7 +40,7 @@ This game was developed using **RPG Maker MZ**.
 
 ---
 
-## 👥 Development Team
+## Development Team
 * **Developers:** Martí Girón, Roger Guiñón, Arnau Martin and Eric Matas.
 * **Engine:** RPG Maker MZ.
 
