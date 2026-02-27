@@ -33,9 +33,8 @@ In this version, you will experience the core pillars of the game:
 This game was developed using **RPG Maker MZ**. 
 
 1. **Standalone Execution:** No additional software or simulators are required. The game is compiled as a standalone application.
-2. **Launch:** Simply open the folder and double-click the `Game.exe` file.
-3. **Requirements:** - Ensure you are running this on a Windows environment for the best compatibility.
-   - If the game does not start, ensure you have the necessary read/write permissions in the folder where the game is located.
+2. **Launch:** Simply open the folder and double-click the `Game.exe` / `Game.dmg` file.
+3. **Requirements:** - Ensure you are running this on a Windows/MacOS environment for the best compatibility.
 4. **Settings:** If you need to adjust screen resolution, volume, or full-screen mode, press `F1` once the game is running to access the configuration menu.
 
 ---
