@@ -52,8 +52,16 @@ function setupGear(gearId, axleId, rotationSpeed, direction, x, y) {
 function checkVictory() {
     if (gearsInstalled === 4) {
         new Audio('https://assets.codepen.io/127738/Among_Us-Task-complete.mp3').play();
-        if (window.parent && window.parent.$gameSwitches) window.parent.$gameSwitches.setValue(4, true);
-        setTimeout(() => { if (window.parent.cerrarMinijuego) window.parent.cerrarMinijuego(); }, 1500);
+        
+        // Devolvemos el foco al juego principal inmediatamente
+        if (window.parent) window.parent.focus(); 
+
+        // Cerramos la ventana después de un segundo y medio
+        setTimeout(() => { 
+            if (window.parent.cerrarMinijuego) {
+                window.parent.cerrarMinijuego(); 
+            }
+        }, 1500);
     }
 }
 

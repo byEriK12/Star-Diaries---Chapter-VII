@@ -77,15 +77,28 @@ function toggleLight(selector, visibility) {
         window.parent.focus(); 
       }
       
-      // Espera un momento para que el jugador vea que ganó y cierra
+      // Al final de la condición de victoria, dentro del setTimeout:
       window.setTimeout(() => {
+          console.log("Intentando cerrar minijuego...");
+
+          // Intento 1: Función global en el padre
           if (window.parent && window.parent.cerrarMinijuego) {
               window.parent.cerrarMinijuego();
-
-              window.parent.focus();
           }
+          
+          // Intento 2: Acceso directo al documento del padre para borrar el iframe
+          try {
+              if (window.parent.document.getElementById('minijuegoCables')) {
+                  window.parent.document.getElementById('minijuegoCables').remove();
+              }
+          } catch (e) {
+              console.log("Bloqueo de seguridad: No se pudo borrar desde dentro");
+          }
+
+          // Intento 3: Devolver el foco
+          window.parent.focus();
       }, 1000);
-    }
+          }
   } else {
     completedLights[selector - 1] = 0;
   }

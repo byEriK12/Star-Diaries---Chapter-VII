@@ -1,11 +1,12 @@
 [
 null,
-{"id":1,"expanded":true,"name":"SALA 1 (INICIAL)","order":2,"parentId":0,"scrollX":580.3636363636364,"scrollY":326.72727272727275},
-{"id":2,"expanded":true,"name":"CARGA INTRO","order":1,"parentId":0,"scrollX":472.8888888888889,"scrollY":326.6666666666667},
-{"id":3,"expanded":true,"name":"SALA 2 (PASILLO)","order":3,"parentId":0,"scrollX":589.0909090909091,"scrollY":501.2727272727273},
-{"id":4,"expanded":false,"name":"SALA 3 (HABITACIÓN + BAÑO)","order":4,"parentId":0,"scrollX":580.3636363636364,"scrollY":326.72727272727275},
-{"id":5,"expanded":false,"name":"SALA 4 (COCINA)","order":5,"parentId":0,"scrollX":580.3636363636364,"scrollY":326.72727272727275},
+{"id":1,"expanded":true,"name":"SALA 1 (INICIAL)","order":2,"parentId":0,"scrollX":709.3333333333334,"scrollY":399.3333333333333},
+{"id":2,"expanded":true,"name":"CARGA INTRO","order":1,"parentId":0,"scrollX":709.3333333333334,"scrollY":399.3333333333333},
+{"id":3,"expanded":true,"name":"SALA 2 (PASILLO)","order":3,"parentId":0,"scrollX":720,"scrollY":635.3333333333334},
+{"id":4,"expanded":false,"name":"SALA 3 (HABITACIÓN + BAÑO)","order":4,"parentId":0,"scrollX":709.3333333333334,"scrollY":399.3333333333333},
+{"id":5,"expanded":false,"name":"SALA 4 (COCINA)","order":5,"parentId":0,"scrollX":709.3333333333334,"scrollY":399.3333333333333},
 {"id":6,"expanded":false,"name":"SALA 6 (ALMACÉN)","order":7,"parentId":0,"scrollX":580.3636363636364,"scrollY":326.72727272727275},
-{"id":7,"expanded":true,"name":"SALA 7 (TRAJES)","order":8,"parentId":0,"scrollX":644,"scrollY":357.3333333333333},
-{"id":8,"expanded":false,"name":"SALA 5 (MOTOR)","order":6,"parentId":0,"scrollX":0,"scrollY":0}
+{"id":7,"expanded":true,"name":"SALA 7 (TRAJES)","order":8,"parentId":0,"scrollX":709.3333333333334,"scrollY":399.3333333333333},
+{"id":8,"expanded":false,"name":"SALA 5 (MOTOR)","order":6,"parentId":0,"scrollX":709.3333333333334,"scrollY":399.3333333333333},
+{"id":9,"expanded":false,"name":"SALA 8 (NAVEGACIÓN)","order":9,"parentId":0,"scrollX":709.3333333333334,"scrollY":399.3333333333333}
 ]

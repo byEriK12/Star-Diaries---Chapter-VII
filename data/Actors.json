@@ -1,4 +1,5 @@
 [
 null,
-{"id":1,"battlerName":"","characterIndex":0,"characterName":"$ijon","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Actor1+","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ijon Tichy","nickname":"","note":"","profile":"A solitary and chaotic space explorer,\ncapable of solving absurd cosmic paradoxes."}
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"$ijon","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Actor1+","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ijon Tichy","nickname":"","note":"","profile":"A solitary and chaotic space explorer,\ncapable of solving absurd cosmic paradoxes."},
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"$ijon+","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Actor1+++","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ijon Tichy (Clone #1)","nickname":"","note":"","profile":"The first Tichy clone, born from a temporal loop. \nHe prefers eating salad to fixing engines."}
 ]
