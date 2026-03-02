@@ -43,12 +43,11 @@ function playSegment(startTime, endTime, sound = emptySound) {
 
 // Función para cerrar el minijuego de forma segura
 function closeGame() {
-    if (window.parent && window.parent.cerrarMinijuego) {
-        window.parent.cerrarMinijuego();
-        window.parent.focus();
-    } else {
-        console.log("Función cerrarMinijuego no encontrada. (Probablemente estás fuera del motor)");
-    }
+    // Intenta avisar al juego para que enfoque la ventana
+    if (window.opener) window.opener.focus();
+    
+    // Cierra esta ventana
+    window.close();
 }
 
 // Evento para el botón X
@@ -63,8 +62,10 @@ function showStickyNote() {
     playSegment(0, 1, noteSound);
 
     // Activar switch de victoria
-    if (window.parent && window.parent.$gameSwitches) {
-        window.parent.$gameSwitches.setValue(4, true);
+    if (window.opener && window.opener.$gameSwitches) {
+        window.opener.$gameSwitches.setValue(28, true);
+    } else if (window.parent && window.parent.$gameSwitches) {
+        window.parent.$gameSwitches.setValue(28, true);
     }
 
     // OPCIONAL: Cierre automático tras 2.5 segundos de encontrar el código
