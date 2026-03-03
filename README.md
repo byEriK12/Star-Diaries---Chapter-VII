@@ -1,9 +1,18 @@
 # 🚀 Star Diaries - Demo
----
 
 <div align="center">
   <img src="img/pictures/stardiaries_cover.jpg" alt="Game Cover" width="300"/>
 </div>
+
+## 📥 Download
+**Ready to play?** You can download the latest version of the demo directly from our [Releases page](https://github.com/byEriK12/Star-Diaries---Chapter-VII/releases).
+
+1. Go to the **Releases** section on the right side of this page.
+2. Click on the latest version.
+3. Download the `.zip` file under **Assets**.
+4. Extract the contents to a folder on your computer and follow the instructions below.
+
+---
 
 ## Introduction
 Welcome to the demo of **Star Diaries**. In this narrative-driven puzzle game inspired by Stanisław Lem's work, you control Ijon Tichy, a space explorer trapped in a temporal loop where he must cooperate with alternate versions of himself to survive.
@@ -32,10 +41,18 @@ In this version, you will experience the core pillars of the game:
 ## Execution Instructions
 This game was developed using **RPG Maker MZ**. 
 
-1. **Standalone Execution:** No additional software or simulators are required. The game is compiled as a standalone application.
-2. **Launch:** Simply open the folder and double-click the `Game.exe` / `Game.dmg` file.
-3. **Requirements:** - Ensure you are running this on a Windows/MacOS environment for the best compatibility.
-4. **Settings:** If you need to adjust screen resolution, volume, or full-screen mode, press `F1` once the game is running to access the configuration menu.
+### Windows
+* **Execution:** Simply double-click the `Game.exe` file. No additional configuration is required.
+
+### macOS
+Due to macOS security policies, you may encounter an "Application cannot be opened" error. Please follow these steps to bypass the restriction:
+
+1. **Open Terminal:** Go to `Applications > Utilities > Terminal`.
+2. **Remove Quarantine Attributes:** Type `xattr -cr ` (make sure to include a **space** at the end) and drag the `Game.app` file into the terminal window. Press `Enter`.
+3. **Grant Permissions:** If the game fails to launch, type `chmod +x ` (with a **space** at the end), then drag the binary file located inside `Game.app/Contents/MacOS/` (usually named `nwjs` or `Game`) into the terminal and press `Enter`.
+4. **Launch:** You should now be able to open the application normally. 
+
+*Note: If you experience persistent issues or "Segmentation Fault" errors on newer macOS versions, we recommend running the Windows version via an emulator (like Whisky) or on a Windows machine, as older macOS builds of RPG Maker can be incompatible with recent OS updates.*
 
 ---
 
@@ -43,4 +60,4 @@ This game was developed using **RPG Maker MZ**.
 * **Developers:** Martí Girón, Roger Guiñón, Arnau Martin and Eric Matas.
 * **Engine:** RPG Maker MZ.
 
-*Thank you for playing our demo! If you encounter any issues, please feel free to report them.* 
+*Thank you for playing our demo! If you encounter any issues, please feel free to report them.*
