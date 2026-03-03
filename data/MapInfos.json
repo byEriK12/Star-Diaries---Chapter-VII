@@ -7,6 +7,6 @@ null,
 {"id":5,"expanded":false,"name":"SALA 4 (COCINA)","order":5,"parentId":0,"scrollX":638.4,"scrollY":359.4},
 {"id":6,"expanded":false,"name":"SALA 6 (ALMACÉN)","order":7,"parentId":0,"scrollX":638.4,"scrollY":359.4},
 {"id":7,"expanded":true,"name":"SALA 7 (TRAJES)","order":8,"parentId":0,"scrollX":638.4,"scrollY":359.4},
-{"id":8,"expanded":false,"name":"SALA 5 (MOTOR)","order":6,"parentId":0,"scrollX":638.4,"scrollY":359.4},
-{"id":9,"expanded":false,"name":"SALA 8 (NAVEGACIÓN)","order":9,"parentId":0,"scrollX":638.4,"scrollY":360.59999999999997}
+{"id":8,"expanded":false,"name":"SALA 5 (MOTOR)","order":6,"parentId":0,"scrollX":644,"scrollY":357.3333333333333},
+{"id":9,"expanded":false,"name":"SALA 8 (NAVEGACIÓN)","order":9,"parentId":0,"scrollX":654.6666666666666,"scrollY":360}
 ]
