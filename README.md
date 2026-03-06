@@ -19,6 +19,18 @@ Welcome to the demo of **Star Diaries**. In this narrative-driven puzzle game in
 
 ---
 
+## Documentation
+
+This project was developed as part of a university course on **Narrative and Video Games**, focusing on the relationship between narrative structure and gameplay mechanics.
+
+A complete **Game Design Document (GDD)** describing the narrative design, gameplay systems, puzzle structure, and development planning can be found here:
+
+📄 **[Read the Game Design Document](docs/GDD_Star_Diaries.pdf)**
+
+The document details the full design process behind the prototype, including narrative structure, gameplay mechanics, puzzle logic, and development planning.
+
+---
+
 ## How to Play
 The gameplay focuses on exploration, dialogue, and technical problem-solving.
 
