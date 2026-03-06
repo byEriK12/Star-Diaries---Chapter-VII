@@ -19,6 +19,18 @@ Welcome to the demo of **Star Diaries**. In this narrative-driven puzzle game in
 
 ---
 
+## Documentation
+
+This project was developed as part of a university course on **Narrative and Video Games**, focusing on the relationship between narrative structure and gameplay mechanics.
+
+A complete **Game Design Document (GDD)** describing the narrative design, gameplay systems, puzzle structure, and development planning can be found here:
+
+📄 **[Read the Game Design Document](docs/GDD_Star_Diaries.pdf)**
+
+The document details the full design process behind the prototype, including narrative structure, gameplay mechanics, puzzle logic, and development planning.
+
+---
+
 ## How to Play
 The gameplay focuses on exploration, dialogue, and technical problem-solving.
 
@@ -45,12 +57,12 @@ This game was developed using **RPG Maker MZ**.
 * **Execution:** Simply double-click the `Game.exe` file. No additional configuration is required.
 
 ### macOS
-Due to macOS security policies, you may encounter an "Application cannot be opened" error. Please follow these steps to bypass the restriction:
+Due to macOS security policies, you may encounter an "Application cannot be opened" error. Please follow these steps to resolve it:
 
 1. **Open Terminal:** Go to `Applications > Utilities > Terminal`.
-2. **Remove Quarantine Attributes:** Type `xattr -cr ` (make sure to include a **space** at the end) and drag the `Game.app` file into the terminal window. Press `Enter`.
-3. **Grant Permissions:** If the game fails to launch, type `chmod +x ` (with a **space** at the end), then drag the binary file located inside `Game.app/Contents/MacOS/` (usually named `nwjs` or `Game`) into the terminal and press `Enter`.
-4. **Launch:** You should now be able to open the application normally. 
+2. **Remove Quarantine Attributes:** Type `xattr -cr ` (with a space at the end) and drag the `Game.app` folder into the terminal window. Press `Enter`.
+3. **Set Permissions Recursively:** To ensure all internal files are accessible, type `chmod -R 755 ` (with a space at the end), drag the `Game.app` folder into the terminal, and press `Enter`.
+4. **Launch:** You should now be able to open the application normally.
 
 *Note: If you experience persistent issues or "Segmentation Fault" errors on newer macOS versions, we recommend running the Windows version via an emulator (like Whisky) or on a Windows machine, as older macOS builds of RPG Maker can be incompatible with recent OS updates.*
 
